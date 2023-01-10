@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Neucha&family=Slabo+27px&display=swap');
+
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Slabo 27, Neucha, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -24,6 +26,12 @@ header div:nth-child(2) {
 
 main h2 {
     text-align: center;
+}
+
+.lesson {
+    font-family: 'Major Mono Display';
+    font-weight: bold;
+
 }
 
 #content {
