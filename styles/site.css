@@ -1,0 +1,41 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    border: 2px black solid;
+}
+
+header img {
+    margin: 1rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header div:nth-child(2) {
+    width: 100%;
+}
+
+main h2 {
+    text-align: center;
+}
+
+#content {
+    margin: 0 auto;
+    width: 800px;
+}
+
+footer {
+    align-items: center;
+    background-color: purple;
+    color: white;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1rem;
+}
