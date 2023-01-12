@@ -1,16 +1,13 @@
 @media screen and (min-width: 640px) {
     body {
         background-color: black;
+        color: white;
     }
     
     header, footer {
         background-color: green;
         border-radius: 1rem;
         border: 4px  navy solid;
-    }
-
-    ul {
-        color: white;
     }
 
     .lesson {
