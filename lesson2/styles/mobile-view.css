@@ -1,0 +1,21 @@
+@media screen and (min-width: 650px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    #section1 {
+        
+    }
+
+    #section2 {
+
+    }
+    
+    #section3 {
+
+    }
+
+    .company-name {
+
+    }
+}
