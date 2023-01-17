@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Neucha&family=Slabo+27px&display=swap');
 
 body {
+    background-color: yellow;
+    color: purple;
     font-family:'Slabo 27', Neucha, Geneva, Verdana, sans-serif;
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: purple;
+    background-color: white;
     color: white;
     border: 2px black solid;
 }
