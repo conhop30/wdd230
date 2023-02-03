@@ -1,0 +1,164 @@
+.content {
+    border: 1px black solid;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+ul {
+  padding: 0px;
+}
+
+#event {
+  border: 1px solid black;
+  padding: 10px;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #DFC390;
+  margin: 10px;
+}
+
+#weather {
+  border: 1px solid black;
+  padding: 10px;
+  grid-column: 1;
+  grid-row: 2;
+  background-color:#DFC390;
+  margin: 10px;
+}
+
+#join {
+  border: 1px solid black;
+  padding: 10px;
+  grid-column: 1;
+  grid-row: 3;
+  background-color:#DFC390;
+  margin: 10px;
+}
+
+#news {
+  border: 1px solid black;
+  padding: 10px;
+  grid-column: 2 / 5;
+  grid-row: 3;
+  background-color:#DFC390;
+  margin: 10px;
+}
+
+#hero {
+  border: 1px solid black;
+  padding: 10px;
+  grid-column: 2 / 5;
+  grid-row: 1 / 3;
+  background-color:#DFC390;
+  margin: 10px;
+}
+
+#spotlight {
+  border: 1px solid black;
+  padding: 10px;
+  grid-column: 5;
+  background-color:#DFC390;
+  margin-left: 10px;
+  margin-right:10px;
+}
+
+
+nav ul, li {
+  display: flex;
+  list-style: none;
+  background-color: #D0D8D0;
+  justify-content: center;
+  border: 1px black solid;
+  width: -webkit-fill-available;
+  align-items: center;
+}
+
+header {
+  background-color: #DFC390;
+  border: 1px black solid;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: #DFC390;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  height: 50px;
+}
+
+.current {
+  background-color: #93B2C0;
+}
+
+#logo {
+  display: inline;
+}
+
+.social {
+  display: inline;
+}
+
+.color1 {
+  background-color: #DFC390;
+}
+
+.color2 {
+  background-color: #D0D8D0;
+}
+
+.color3 {
+  background-color: #93B2C0;
+}
+
+.color4{
+  background-color: #FFD700;
+}
+
+footer {
+  background-color: #DFC390;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Hamburger menu logistics */
+
+#navbar {
+  display: none;
+}
+
+#menu-open {
+  display: none;
+}
+
+#navbar.menu-active {
+  display: flex;
+}
+
+#menu-open.menu-active {
+  display: inline;
+}
+
+#menu-close.menu-active {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  nav ul {
+      flex-direction: column;
+  }
+}
